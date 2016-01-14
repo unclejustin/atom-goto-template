@@ -1,6 +1,6 @@
 {
   "name": "atom-goto-template",
-  "repository": "https://github.com/atom/atom-goto-template.git",
+  "repository": "https://github.com/unclejustin/atom-goto-template.git",
   "main": "./lib/goto-template",
   "version": "0.0.0",
   "description": "A short description of your package",
