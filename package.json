@@ -2,7 +2,7 @@
   "name": "atom-goto-template",
   "repository": {
     "type": "git",
-    "url": "https://github.com/unclejustin/atom-goto-template.git"
+    "url": "https://github.com/unclejustin/atom-goto-template"
   },
   "main": "./lib/goto-template",
   "version": "0.0.0",
