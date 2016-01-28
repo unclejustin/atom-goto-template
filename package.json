@@ -2,7 +2,7 @@
   "name": "atom-goto-template",
   "main": "./lib/goto-template",
   "version": "0.1.0",
-  "description": "A short description of your package",
+  "description": "Take a selected path and open in Atom.",
   "author": "Justin Boyson",
   "keywords": [],
   "activationCommands": {
