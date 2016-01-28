@@ -15,5 +15,7 @@ module.exports =
 
   go: ->
     if editor = atom.workspace.getActiveTextEditor()
+      editorElement = atom.views.getView(editor)
+      atom.commands.dispatch(editorElement, 'expand-selection-to-quotes:toggle')
       path = editor.getSelectedText()
       atom.workspace.open(path)
