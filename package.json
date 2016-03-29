@@ -1,7 +1,7 @@
 {
   "name": "atom-goto-template",
   "main": "./lib/goto-template",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Take a selected path and open in Atom.",
   "author": "Justin Boyson",
   "keywords": [],
