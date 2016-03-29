@@ -9,6 +9,7 @@ module.exports =
 
     # Register command that toggles this view
     @subscriptions.add atom.commands.add 'atom-workspace', 'goto-template:go': => @go()
+    @subscriptions.add atom.commands.add 'atom-workspace', 'goto-template:gotest': => @gotest()
 
   deactivate: ->
     @subscriptions.dispose()
@@ -18,4 +19,15 @@ module.exports =
       editorElement = atom.views.getView(editor)
       atom.commands.dispatch(editorElement, 'expand-selection-to-quotes:toggle')
       path = editor.getSelectedText()
+      console.log(path)
       atom.workspace.open(path)
+
+  gotest: ->
+    if editor = atom.workspace.getActivePaneItem()
+      file = editor?.buffer.file
+      if (path.extname file?.path) is '.ts'
+        filePath = file?.path.replace('/src/', '/test/')
+        filePath = filePath.replace('.ts', '.spec.js')
+        atom.project.relativizePath(filePath)
+        console.log(filePath)
+        atom.workspace.open(filePath)

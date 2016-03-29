@@ -6,7 +6,8 @@
   "author": "Justin Boyson",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "goto-template:go"
+    "atom-workspace": "goto-template:go",
+    "atom-workspace": "goto-template:gotest"
   },
   "repository": "https://github.com/unclejustin/atom-goto-template",
   "license": "MIT",

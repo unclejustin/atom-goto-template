@@ -9,3 +9,4 @@
 # https://atom.io/docs/latest/behind-atom-keymaps-in-depth
 'atom-workspace':
   'shift-ctrl-alt-o': 'goto-template:go'
+  'shift-ctrl-alt-t': 'goto-template:gotest'
