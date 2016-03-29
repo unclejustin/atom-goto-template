@@ -1,12 +1,11 @@
 {
   "name": "atom-goto-template",
   "main": "./lib/goto-template",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Take a selected path and open in Atom.",
   "author": "Justin Boyson",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "goto-template:go",
     "atom-workspace": "goto-template:gotest"
   },
   "repository": "https://github.com/unclejustin/atom-goto-template",
