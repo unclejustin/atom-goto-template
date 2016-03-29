@@ -8,4 +8,6 @@ Default keybinding is Shift+Ctrl+Alt+O
 
 Open/create a spec file. Currently only supports typescript source files and javascript specs.
 
+Default keybinding is Shift+Ctrl+Alt+T
+
 Uses [expand-selection-to-quotes](https://github.com/clessg/atom-expand-selection-to-quotes) if available to select paths in quotes.
